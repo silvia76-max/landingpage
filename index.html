@@ -1,60 +1,144 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Bootstrap</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Agregar Bootstrap desde CDN -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">"
+    
 </head>
 <body>
-  <!-- Header -->
-  <header class="text-center py-5 bg-primary text-white">
-    <div class="container">
-      <img src="profile.jpg" alt="Foto de Perfil" class="rounded-circle mb-4" width="150">
-      <h1>pepe
-         BOOTSTRAP</h1>
-      <p class="lead">Graphic Artist - Web Designer - Illustrator</p>
-    </div>
-  </header>
+    <header> 
+        
+        <nav class="navbar">
+            <ul> 
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
 
-  <!-- Portafolio -->
-  <section class="portfolio text-center py-5">
-    <div class="container">
-      <h2>PORTFOLIO</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="img1.jpg" alt="Proyecto 1" class="img-fluid">
-        </div>
-        <div class="col-md-4">
-          <img src="img2.jpg" alt="Proyecto 2" class="img-fluid">
-        </div>
-        <div class="col-md-4">
-          <img src="img3.jpg" alt="Proyecto 3" class="img-fluid">
-        </div>
-        <div class="col-md-4">
-          <img src="img4.jpg" alt="Proyecto 4" class="img-fluid">
-        </div>
-        <div class="col-md-4">
-          <img src="img5.jpg" alt="Proyecto 5" class="img-fluid">
-        </div>
-        <div class="col-md-4">
-          <img src="img6.jpg" alt="Proyecto 6" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Sección About -->
-  <section class="about text-center py-5 bg-info text-white">
-    <div class="container">
-      <h2>ABOUT</h2>
-      <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download...</p>
-      <button class="btn btn-light">Free Download</button>
-    </div>
-  </section>
 
-  <!-- Formulario de Contacto -->
-  <section class="contact text-center py-5">
-    <div class="container">
+        </nav>
+    </header>
+
+
+    <section class="hero"> 
+        <img src="img/avataaars.svg" alt=img">
+     <h1>Start Bootstrap </h1>
+  
+    </section>
+
+
+    <section id="portfolio">
+
+     <h2> Portfolio</h2>
+     
+        <div class="contenedor-portfolio">
+
+
+            <!--<div class="portfolio-item">
+                <img src="img/cake.png" alt="hola">
+            </div>
+
+
+            <div class="portfolio-item">
+                <img src="img/cabin(1).png" alt=hola">
+             </div>-->
+
+
+            <div class="portfolio-item">
+                <img src="img/circus.png" alt=hola">
+
+            </div>
+
+
+            <div class="portfolio-item">
+                <img src="img/game.png" alt=hola">
+             </div>
+
+
+            <div class="portfolio-item">
+                <img src="img/safe.png" alt=hola">
+            </div>
+
+
+            <div class="portfolio-item">
+                    <img src="img/submarine.png" alt=hola">
+            </div>
+
+            <div class="portfolio-item">
+              <img src="img/cake.png" alt="hola">
+            </div>
+
+
+            <div class="portfolio-item">
+              <img src="img/cabin(1).png" alt=hola">
+             </div>
+        
+
+            
+        </div>
+
+    </section>
+
+
+
+
+    <section id="about">
+        <h2>sobre mi</h2>
+            <p>freelancer is a free Bootstrap</p>
+            <p>texto de prueba aqui</p>
+            <a herf="#" class="btn">descargar cv</a>
+    </section>
+
+    <section id="contacto">
+        <h2> Contacto</h2>
+            <form action="#"method="POST">
+                 <input type="text" name="name" placeholder="tu nombre"required>
+                <input type="email"name="email" placeholder="tu correo electronico" required>
+                <input type="tel" name="telefono"placeholder="tu numero de telefono"required
+                <textarea name="mensaje" placeholder="escribe > mensaje"required>
+    
+                <button type="submit">enviar</button>
+    
+            </form>
+
+
+    </section>
+
+
+</body>
+
+<footer> 
+   <div class="footer-container">
+    <div class="footer-content">
+        <div class="footer-column">
+          <h4>location</h4>
+          <p>Bolueta 123 calle larga <br>bilbao 48004 </p>
+        </div> 
+       
+        <div class="footer-column">
+            <h5>around the web</h5>
+            <ul class="social links">
+                <li><i class="fa-brands fa-Facebook"</i></li>
+                 <li><i class="fa-brands fa-Linkedin"</i></li>
+                 <li><i class="fa-brands fa-Twitter"</i></li>
+                 <li><i class="fa-brands fa-dribbble"</i></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h6>About freelancer</h6>
+            <p>freelancer is a free to use,MIT licensed Bootstrap theme created by Start Bootstrap</p>
+        </div>
+        <div class="footer-bootom">
+            <p>&copy; your website 2024. all rigths reserved </p>
+        </div>
+
+</footer>
+
+
+
+</html>

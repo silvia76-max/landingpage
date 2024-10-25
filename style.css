@@ -1,29 +1,117 @@
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
+
+body {background-color:#1abc9c ; 
+  height: 2
+  rem;
+   display: flex; 
+  flex-direction: column;
+  justify-content:center;
+   align-items: center;
+margin: 0; 
+font-family: Arial, Helvetica, sans-serif;}
+
+header{  text-align: center;  ;}
+
+
+.hero {padding: 100px 0;
+  align-items: center;
+text-align:  center;
+background-color:#1abc9c;}
+
+
+.navbar{background-color:#2c3e50; 
+  padding: 20px 0;
+position: fixed; 
+width: 100%;
+top:0;left:0;
+z-index: 1000;}
+
+.navbar ul {list-style-type: none;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;}
+.navbar ul li {margin: 0 1.25rem;}
+
+.navbar ul li a {color: white;
+font-size: 1rem}
+
+.navbar ul li a:hover {color: brown;}
+
+p {color:white;
+  font-size: 2rem;}
+  
+#about {background-color: #1abc9c;
+width: 100%;
+color: white;
+margin-top: 5rem;
+text-align: center;
 }
 
-h1, h2 {
-  font-weight: bold;
+#contacto {background-color: white;
+  width: 100%;
+  padding: 50px;display: flex; 
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#contacto form {display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:1rem;
 }
 
-.portfolio img {
-  margin-bottom: 15px;
+
+
+
+.portfolio-item img {
+  width: 100%; 
+  max-width: 300px; 
+  height: auto ; 
+  display: block ;
+   margin: 0 auto;
+   
+  }
+
+.contenedor-portfolio {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.about {
-  background-color: #18bc9c;
+.portfolio-item {
+  flex-basis: 30%;
+  margin-bottom: 10
+  px;
+  
 }
 
-.contact {
-  background-color: #ffffff;
-  padding: 30px 0;
+ #portfolio {
+  margin-top: 0.5rem;background-color: #ffffff;
 }
 
-footer {
-  background-color: #2c3e50;
+#portfolio h2 {
+text-align: center;
+font-size: 2rem;
+margin-top: 2rem;
 }
 
-footer p {
-  margin: 0;
+footer {background-color:#2c3e50;
+  display: flex;
+align-items: column;
+justify-content:  center;
 }
+
+.footer-column h5 { align-items: column;
+font-size: 1.2rem; 
+color:#ffffff;
+}
+
+
+.footer-content {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+
